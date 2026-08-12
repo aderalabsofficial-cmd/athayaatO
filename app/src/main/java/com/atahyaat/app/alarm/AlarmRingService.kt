@@ -51,7 +51,7 @@ class AlarmRingService : Service() {
         if (mode == AlertMode.ALARM) {
             val fullScreenIntent = Intent(this, AlarmActivity::class.java).apply {
                 putExtra(AlarmReceiver.EXTRA_PRAYER, prayer.name)
-                flags = Intent.FLAG_ACTIVITY_NEW_TASK
+                this.flags = Intent.FLAG_ACTIVITY_NEW_TASK
             }
             startActivity(fullScreenIntent)
         } else {
