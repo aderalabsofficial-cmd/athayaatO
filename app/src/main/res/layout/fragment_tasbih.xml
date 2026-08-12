@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tab_tasbih"
+        android:textColor="@color/teal_primary"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/tasbih_target_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Target: 33"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textSize="14sp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tasbih_count_text"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:gravity="center"
+        android:background="@drawable/bg_next_prayer_card"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="64sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/tasbih_tap_button"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@drawable/bg_button_primary"
+        android:text="Tap to Count"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:id="@+id/tasbih_reset_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tasbih_reset"
+        android:textColor="@color/teal_primary"
+        android:textSize="14sp"
+        android:padding="12dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_today" android:title="@string/tab_today" android:icon="@drawable/ic_nav_today" />
+    <item android:id="@+id/nav_schedule" android:title="@string/tab_schedule" android:icon="@drawable/ic_nav_schedule" />
+    <item android:id="@+id/nav_streak" android:title="@string/tab_streak" android:icon="@drawable/ic_nav_streak" />
+    <item android:id="@+id/nav_tasbih" android:title="@string/tab_tasbih" android:icon="@drawable/ic_nav_tasbih" />
+    <item android:id="@+id/nav_settings" android:title="@string/tab_settings" android:icon="@drawable/ic_nav_settings" />
+</menu>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/teal_dark"
+    android:gravity="center_horizontal"
+    android:padding="32dp">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2" />
+
+    <ImageView
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:src="@drawable/ic_notification"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next_prayer"
+        android:textColor="#B9E4DA"
+        android:textSize="13sp"
+        android:letterSpacing="0.1" />
+
+    <TextView
+        android:id="@+id/prayer_name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Maghrib"
+        android:textColor="@color/white"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/time_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6:37 PM"
+        android:textColor="#CFEDE3"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3" />
+
+    <Button
+        android:id="@+id/stop_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/bg_pill_gold"
+        android:text="@string/stop"
+        android:textAllCaps="false"
+        android:textColor="@color/teal_dark"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:layout_marginBottom="14dp" />
+
+    <Button
+        android:id="@+id/snooze_button"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/bg_button_outline"
+        android:text="@string/snooze"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:layout_marginBottom="24dp" />
+
+</LinearLayout>
